@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.organic, .paper, .plastic, .other {
+  width: 25%;
+  padding: 16px;
+  margin: 16px;
+  border: 1px solid #ccc;
+}
+
+.tools {
+  background-color: #f2f2f2;
+  padding: 16px;
+}
+
+.call-to-action {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 16px;
+  text-align: center;
+}
+
+.call-to-action a {
+  color: #fff;
+  text-decoration: none;
+}
